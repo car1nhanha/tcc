@@ -1,0 +1,378 @@
+ 9699  sudo reboot
+ 9700  npm run start
+ 9701  npm uninstall expo-router\n
+ 9702  npm run start
+ 9703  tree
+ 9704  rm -r node_modules
+ 9705  tree
+ 9706  npm install
+ 9707  rm -rf node_modules\n
+ 9708  npm install\n
+ 9709  npm start\n
+ 9710  rm -rf .expo\n
+ 9711  rm -rf node_modules\n
+ 9712  npm install\n
+ 9713  npm start\n
+ 9714  npm install styled-components/native
+ 9715  npm install styled-components
+ 9716  npm start\n
+ 9717  cd 
+ 9718  cd Documents
+ 9719  mkdir
+ 9720  mkdir c
+ 9721  ls
+ 9722  cd c
+ 9723  code .
+ 9724  gcc ./1-dados-primitivos.c
+ 9725  ./a.out
+ 9726  gcc ./1-dados-primitivos.c
+ 9727  ./a.out
+ 9728  gcc ./1-dados-primitivos.c
+ 9729  ./a.out
+ 9730  gcc ./1-dados-primitivos.c
+ 9731  ./a.out
+ 9732  gcc ./1-dados-primitivos.c
+ 9733  ./a.out
+ 9734  gcc ./1-dados-primitivos.c
+ 9735  ./a.out
+ 9736  gcc ./1-dados-primitivos.c
+ 9737  ./a.out
+ 9738  gcc ./1-dados-primitivos.c
+ 9739  ./a.out
+ 9740  gcc ./1-dados-primitivos.c
+ 9741  ./a.out
+ 9742  gcc ./1-dados-primitivos.c
+ 9743  ./a.out
+ 9744  gcc ./1-dados-primitivos.c
+ 9745  ./a.out
+ 9746  gcc ./2-dados-compostos.c
+ 9747  ./a.out
+ 9748  gcc ./2-dados-compostos.c
+ 9749  ./a.out
+ 9750  gcc ./2-dados-compostos.c
+ 9751  ./a.out
+ 9752  gcc ./2-dados-compostos.c
+ 9753  ./a.out
+ 9754  gcc ./2-dados-compostos.c
+ 9755  ./a.out
+ 9756  gcc 3-ponteiros.c
+ 9757  ./a.out
+ 9758  gcc 3-ponteiros.c
+ 9759  ./a.out
+ 9760  gcc 3-ponteiros.c
+ 9761  ./a.out
+ 9762  node 1.1-dados-primitivos.js
+ 9763  node 3.1-json-ponteiros.js
+ 9764  cd app
+ 9765  atomic
+ 9766  cd ../trash
+ 9767  unzip stitch_lista_de_atividades_do_quiz.zip
+ 9768  atomiccd ../
+ 9769  cd ..
+ 9770  npm run start
+ 9771  npx expo install expo-font
+ 9772  cd assets/fonts
+ 9773  unzip Comic_Neue.zip
+ 9774  cd ../../trash
+ 9775  unzip stitch_lista_de_atividades_do_quiz.zip
+ 9776  ls
+ 9777  unzip stitch_lista_de_atividades_do_quiz.zip
+ 9778  cd ../
+ 9779  ls
+ 9780  npm install expo-linear-gradient
+ 9781  cd Documents
+ 9782  ls
+ 9783  mkdir smart-paebm
+ 9784  cd smart-paebm
+ 9785  gh auth
+ 9786  gh auth login
+ 9787  gh repo clone Sinapsys-Tech/SmartPaeBm
+ 9788  cd SmartPaeBm
+ 9789  code .
+ 9790  find /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend -type f -not -path '*/node_modules/*' | head -100
+ 9791  ls -lh /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/*.md
+ 9792  cd /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend && echo "📚 Documentação SmartPaeBm Frontend - Arquivos Criados:" && echo "" && ls -lh *.md *.txt 2>/dev/null | awk '{print $9, "-", $5}' && echo "" && echo "Total de linhas de documentação:" && wc -l DOCUMENTATION.md COGNITO_AND_OAUTH.md ARCHITECTURE.md DEPLOY_AND_TROUBLESHOOTING.md README_DOCS.md | tail -1
+ 9793  ls -lh *.md | awk '{printf "%-40s %10s\n", $9, $5}'
+ 9794  cat << 'EOF'\n\n╔════════════════════════════════════════════════════════════════════════════╗\n║                                                                            ║\n║                  ✅ DOCUMENTAÇÃO CONCLUÍDA COM SUCESSO!                  ║\n║                                                                            ║\n║                   SmartPaeBm Frontend - 25 de Novembro                   ║\n║                                                                            ║\n╚════════════════════════════════════════════════════════════════════════════╝\n\n\n📚 ARQUIVOS CRIADOS (6 DOCUMENTOS):\n\n  1️⃣  DOCUMENTATION.md (26 KB)\n      └─ Guia completo: arquitetura, stack, autenticação, páginas\n\n  2️⃣  COGNITO_AND_OAUTH.md (24 KB)\n      └─ Segurança: Cognito, OAuth, JWT, boas práticas\n\n  3️⃣  ARCHITECTURE.md (19 KB)\n      └─ Estrutura: componentes, contexto, exemplo prático\n\n  4️⃣  DEPLOY_AND_TROUBLESHOOTING.md (16 KB)\n      └─ Deploy: setup, produção, troubleshooting, CI/CD\n\n  5️⃣  README_DOCS.md (11 KB)\n      └─ Índice: navegação, quick start, roteiros\n\n  6️⃣  CONCLUSION.md (6 KB)\n      └─ Sumário: o que foi documentado, próximos passos\n\n\n📊 ESTATÍSTICAS:\n\n  • Total de linhas: 3.970+\n  • Total de KB: ~97\n  • Diagramas Mermaid: 50+\n  • Exemplos de código: 30+\n  • Problemas/Soluções: 10+\n  • Tabelas referência: 15+\n\n\n🎯 COMECE AQUI:\n\n  1. Abrir: README_DOCS.md\n  2. Seguir: Mapa de navegação\n  3. Escolher: Seu caminho (novo, dev, deploy, etc)\n\n\n✨ O QUE FOI DOCUMENTADO:\n\n  ✅ Arquitetura geral do projeto\n  ✅ Stack tecnológico (React, Amplify, Cognito)\n  ✅ Fluxos de autenticação completos\n  ✅ Roles e permissões\n  ✅ Componentes (Navbar, Sidebar, etc)\n  ✅ Páginas (Login, Dashboard, Clients, etc)\n  ✅ Integração com API backend\n  ✅ 3 estratégias de deployment\n  ✅ Troubleshooting extenso\n  ✅ Exemplos de código prontos\n  ✅ Roteiros de aprendizado\n  ✅ Referências oficiais\n\n\n📍 LOCALIZAÇÃO:\n\n  /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/\n\n  ├── DOCUMENTATION.md\n  ├── COGNITO_AND_OAUTH.md\n  ├── ARCHITECTURE.md\n  ├── DEPLOY_AND_TROUBLESHOOTING.md\n  ├── README_DOCS.md\n  └── CONCLUSION.md\n\n\n🔑 INFORMAÇÕES CRÍTICAS:\n\n  Cognito User Pool:    us-east-2_F62hthdUE\n  Client ID:            33nkqqf3mvvfnoij7oo0tfquos\n  Client Secret:        ❌ NUNCA no Frontend (só backend)\n  Region:               us-east-2\n\n\n🚀 QUICK START:\n\n  npm install\n  echo "REACT_APP_COGNITO_USER_POOL_ID=us-east-2_F62hthdUE" > .env.local\n  echo "REACT_APP_COGNITO_CLIENT_ID=33nkqqf3mvvfnoij7oo0tfquos" >> .env.local\n  npm start\n\n\n�� PRÓXIMO PASSO:\n\n  👉 Abrir README_DOCS.md para começar!\n\n\n═══════════════════════════════════════════════════════════════════════════════\n\nStatus: ✅ 100% COMPLETO\nVersão: 1.0.0\nData: 25 de Novembro de 2025\n\n═══════════════════════════════════════════════════════════════════════════════\n\nEOF
+ 9795  find . -maxdepth 1 -name "*.md" -type f -exec wc -l {} + | sort -rn
+ 9796  git pull
+ 9797  git checkout -b start-front
+ 9798  mkdir SmartPaeBm.Frontend
+ 9799  pnpm init
+ 9800  cd SmartPaeBm.Frontend
+ 9801  pnpm init -y
+ 9802  pnpm init 
+ 9803  pnpm create vite
+ 9804  mkdir components
+ 9805  cd components
+ 9806  pnpm create vite
+ 9807  cd ../
+ 9808  cd backoffice/src
+ 9809  atomic
+ 9810  cd ../
+ 9811  pnpm run dev
+ 9812  pnpm install install sass
+ 9813  pnpm run dev
+ 9814  code .
+ 9815  killall code
+ 9816  pid
+ 9817  htop
+ 9818  top
+ 9819  cd ../
+ 9820  cd sdk
+ 9821  cd ..
+ 9822  cd
+ 9823  cd SmartPaeBm.Frontend
+ 9824  ls
+ 9825  pnpm create vite
+ 9826  cd sdk
+ 9827  cd src
+ 9828  atomic
+ 9829  cd ..
+ 9830  pnpm install sass
+ 9831  find /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend -maxdepth 3 -name "tsconfig.json" -o -name ".eslintrc*" | head -20
+ 9832  find /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend -maxdepth 2 -name ".eslintrc*" -type f
+ 9833  ls -la /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/backoffice/ | grep -E "(eslint|tsconfig)"
+ 9834  ls -la /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/sdk/ | grep -E "(eslint|tsconfig)"
+ 9835  cat /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/backoffice/eslint.config.js
+ 9836  cat << 'EOF'\n\n╔══════════════════════════════════════════════════════════════════════════════╗\n║                                                                              ║\n║                  ✅ ERRO ESLint RESOLVIDO COM SUCESSO! ✅                   ║\n║                                                                              ║\n║                 Parsing error: No tsconfigRootDir was set...                ║\n║                                                                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n\n🔍 PROBLEMA IDENTIFICADO:\n\n  Você tem um monorepo (pnpm workspace) com 2 pastas:\n  ├── backoffice/\n  └── sdk/\n  \n  Ambas têm tsconfig.json próprio, causando conflito no ESLint.\n  O parser TypeScript não sabia qual usar.\n\n\n✅ SOLUÇÃO APLICADA:\n\n  Configurado o ESLint em ambas as pastas com:\n  \n  ✓ parser: tseslint.parser\n  ✓ tsconfigRootDir: import.meta.dirname (aponta para a pasta atual)\n  ✓ project: './tsconfig.app.json' (referencia o arquivo local)\n\n\n📝 ARQUIVOS MODIFICADOS:\n\n  1. /backoffice/eslint.config.js\n     └─ Adicionado parser e parserOptions\n\n  2. /sdk/eslint.config.js\n     └─ Adicionado parser e parserOptions\n\n\n📋 O QUE FOI ADICIONADO:\n\n  languageOptions: {\n    ecmaVersion: 2020,\n    globals: globals.browser,\n    parser: tseslint.parser,              ← NOVO\n    parserOptions: {                      ← NOVO\n      tsconfigRootDir: import.meta.dirname,\n      project: './tsconfig.app.json',\n    },\n  }\n\n\n🚀 PRÓXIMOS PASSOS:\n\n  1. Salve os arquivos\n  2. Rode: pnpm install\n  3. Ou rode: npm install (se usar npm)\n  4. Rode: pnpm lint ou npm run lint\n  5. O erro deve sumir!\n\n\n💡 EXPLICAÇÃO:\n\n  • tsconfigRootDir: Diz ao ESLint onde está o tsconfig.json\n  • import.meta.dirname: Pega a pasta do arquivo atual\n  • project: Especifica qual tsconfig.json usar\n  • Isso resolve o conflito de múltiplos tsconfig\n\n\n🎯 RESULTADO:\n\n  ✅ ESLint saberá qual tsconfig.json usar\n  ✅ Não haverá conflito entre backoffice e sdk\n  ✅ TypeScript será parseado corretamente\n  ✅ Erro desaparecerá\n\n\n═══════════════════════════════════════════════════════════════════════════════\n\nStatus: ✅ RESOLVIDO\nPróxima ação: Teste o linter em seu projeto\n\n═══════════════════════════════════════════════════════════════════════════════\n\nEOF
+ 9837  npm install
+ 9838  cd ../backoffice
+ 9839  pnpm install
+ 9840  cd /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend && pnpm install 2>&1 | head -30
+ 9841  pnpm install
+ 9842  pnpm run start
+ 9843  pnpm run dev
+ 9844  cd backoffice
+ 9845  pnpm run dev
+ 9846  cd ../sdk
+ 9847  pnpm create storybook@latest
+ 9848  pnpm storybook --no-open --clear-cache\n
+ 9849  rm -rf node_modules/.cache/storybook\n
+ 9850  pnpm storybook\n
+ 9851  pnpm storybook --clear-cache\n
+ 9852  rm -rf node_modules/.cache/storybook\n
+ 9853  pnpm storybook\n
+ 9854  code .
+ 9855  pnpm storybook\n
+ 9856  rm -rf node_modules/.cache/storybook\n
+ 9857  pnpm storybook\n
+ 9858  rm -rf node_modules/.cache/storybook\n
+ 9859  pnpm storybook\n
+ 9860  rm -rf node_modules/.cache/storybook\n
+ 9861  pnpm storybook\n
+ 9862  code ../sdk
+ 9863  rm -rf node_modules/.cache/storybook\n
+ 9864  code ../sdk
+ 9865  pnpm storybook\n
+ 9866  pnpm add clsx\n
+ 9867  rm -rf node_modules/.cache/storybook\n
+ 9868  pnpm storybook\n
+ 9869  rm -rf node_modules/.cache/storybook\n
+ 9870  pnpm storybook\n
+ 9871  mkdir -p /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/sdk/src/molecules/select
+ 9872  pnpm storybook\n
+ 9873  npm install @react-native-async-storage/async-storage
+ 9874  npm install axios
+ 9875  npm run start
+ 9876  pnpm storybook\n
+ 9877  cd ../
+ 9878  cd ..
+ 9879  git checkout dev 
+ 9880  git pull
+ 9881  git checkout start-front
+ 9882  git merge dev
+ 9883  git checkout -b SMAR-39
+ 9884  git push 
+ 9885  git checkout start-frontend
+ 9886  git checkout start-front 
+ 9887  git merge SMAR-39
+ 9888  git checkout -b SMAR-40
+ 9889  git checkout start-front 
+ 9890  git merge SMAR-40
+ 9891  git branch -m start-front start-front/WIP
+ 9892  git status
+ 9893  git branch\n
+ 9894  git config --global user.name\n
+ 9895  gh push
+ 9896  git push -u origin start-front/WIP\n
+ 9897  ssh-keygen -t ed25519 -C "car1nhanha" -f ~/.ssh/car1nhanha\n
+ 9898  ssh-keygen -t ed25519 -C "sinapsys" -f ~/.ssh/sinapsys\n
+ 9899  eval "$(ssh-agent -s)"\n
+ 9900  ssh-add ~/.ssh/car1nhanha
+ 9901  ssh-add ~/.ssh/sinapsys
+ 9902  nano ~/.ssh/config\n
+ 9903  cat ~/.ssh/config\n
+ 9904  git config --global alias.user-sinapsys 'config user.email "lucas.araujo@sinapsystech.com.br"'
+ 9905  git config --global alias.user-car1nhanha 'config user.email "lucascarinhanha4@gmail.com"'
+ 9906  git user-sinapsys
+ 9907  git push -u origin start-front/WIP\n
+ 9908  git config --global user.name\n
+ 9909  git user-sinapsys
+ 9910  git config --global user.name\n
+ 9911  git user-sinapsys
+ 9912  git config --global user.name\n
+ 9913  git config user.name\n
+ 9914  git user-sinapsys
+ 9915  git config user.name\n
+ 9916  git remote set-url origin git@github.com-sinapsys:Sinapsys-Tech/SmartPaeBm.git\n
+ 9917  git remote -v\n
+ 9918  git config user.name\n
+ 9919  git user-sinapsys
+ 9920  git config user.name\n
+ 9921  git config --global alias.user-sinapsys '!git config user.name "Lucas (Sinapsys)" && git config user.email "lucas.araujo@sinapsystech.com.br"'\n
+ 9922  git config --global alias.user-car1nhanha '!git config user.name "Lucas Carinhanha" && git config user.email "lucascarinhanha4@gmail.com"'\n
+ 9923  git user-sinapsys\n
+ 9924  git config user.name\n
+ 9925  git config user.email\n
+ 9926  git push -u origin start-front/WIP\n\n
+ 9927  git config --global --unset alias.user-sinapsys\n
+ 9928  git config --global --unset alias.user-car1nhanha\n
+ 9929  git config --global --get-regexp alias\n
+ 9930  git config --global user.name "car1nhanha"\n
+ 9931  git config --global user.email "lucascarinhanha4@gmail.com"\n
+ 9932  git config --unset user.name\n
+ 9933  git config --unset user.email\n
+ 9934  git config --unset user.name\n
+ 9935  git config --unset user.email\n
+ 9936  nano ~/.ssh/config\n
+ 9937  git remote set-url origin git@github.com:Sinapsys-Tech/SmartPaeBm.git\n
+ 9938  git remote -v\n
+ 9939  git config user.email\n
+ 9940  git config user.name\n
+ 9941  gh auth nogin
+ 9942  gh auth login
+ 9943  git config user.name\n
+ 9944  gh auth status\n
+ 9945  gh auth logout lucascarinhanha
+ 9946  gh auth status\n
+ 9947  git push -u origin start-front/WIP\n
+ 9948  gh auth status\n
+ 9949  gh repo sync --force\n
+ 9950  git remote set-url origin https://github.com/Sinapsys-Tech/SmartPaeBm.git\n
+ 9951  git remote -v\n
+ 9952  gh auth switch car1nhanha-sinapsys\n
+ 9953  git push -u origin start-front/WIP\n
+ 9954  gh auth switch --user car1nhanha-sinapsys\n
+ 9955  gh auth status\n
+ 9956  git@github.com:Sinapsys-Tech/SmartPaeBm.git\n
+ 9957  git remote set-url origin https://github.com/Sinapsys-Tech/SmartPaeBm.git\n
+ 9958  git remote -v\n
+ 9959  cd
+ 9960  cd ~/.ssh
+ 9961  ls
+ 9962  rm sinapsys.pub
+ 9963  rm sinapsys
+ 9964  cd
+ 9965  ssh-keygen -t rsa -b 4096 -C "lucas.araujo@sinapsystech.com.br" -f ~/.ssh/id_rsa_sinapsys
+ 9966  cat ~/.ssh/id_rsa_sinapsys.pub
+ 9967  nano ~/.ssh/config
+ 9968  git remote -v
+ 9969  git remote set-url origin git@github.com-sinapsys:Sinapsys-Tech/SmartPaeBm.git
+ 9970  git remote -v
+ 9971  git remote set-url origin git@github.com-sinapsys:Sinapsys-Tech/SmartPaeBm.git
+ 9972  cd ~
+ 9973  cd .ssh
+ 9974  ls
+ 9975  cat config
+ 9976  ssh -T git@github.com-sinapsys
+ 9977  cat ~/.ssh/id_rsa_sinapsys.pub
+ 9978  gh repo set-default Sinapsys-Tech/SmartPaeBm
+ 9979  gh repo view --json viewerPermission
+ 9980  git checkout SMAR-40
+ 9981  git merge start-front/WIP
+ 9982  cd SmartPaeBm.Frontend
+ 9983  cd sdk
+ 9984  pnpm run storybook
+ 9985  cd ../backoffice
+ 9986  pnpm run dev
+ 9987  find /Users/lucascarinhanha/Documents/smart-paebm/SmartPaeBm/SmartPaeBm.Frontend/sdk -name "index.ts" -o -name "index.tsx" | head -20
+ 9988  npm run start
+ 9989  pnpm add lucide-react-native
+ 9990  npm add lucide-react-native
+ 9991  pnpm run storybook
+ 9992  cd ..
+ 9993  git checkout start-front/WIP
+ 9994  git pull
+ 9995  git checkout -b SMAR-45
+ 9996  cd backoffice
+ 9997  pnpm run dev
+ 9998  npm install react-markdown
+ 9999  pnpm install react-markdown
+10000  exit
+10001  pnpm remove react-markdown
+10002  pnpm install react-router
+10003  pnpm install react-icons
+10004  pnpm install react-hook-form
+10005  nano ~/.ssh/config
+10006  nano ~/.zshrc\n
+10007  npm install zod
+10008  pnpm install zod
+10009  cd ../sdk
+10010  code .
+10011  pnpm install @hookform/resolvers
+10012  pnpm remove @hookform/resolvers
+10013  cd ../backoffice
+10014  pnpm install @hookform/resolvers
+10015  pnpm install clsx
+10016  npm run start
+10017  cd 
+10018  cd Desktop
+10019  git clone https://github.com/Sinapsys-Tech/SmartPaeBm.git
+10020  history
+10021  ls
+10022  cd SmartPaeBm
+10023  git checkout dev
+10024  code .
+10025  cd
+10026  cd SmartPaeBm.Frontend
+10027  npm install
+10028  yarn 
+10029  yarn start
+10030  git checkout start-front/WIP
+10031  git pull
+10032  code .
+10033  ls
+10034  cd SmartPaeBm.Frontend
+10035  cd backoffice
+10036  pnpm install Amplify
+10037  pnpm install aws-amplify
+10038  pnpm run dev
+10039  cd ..
+10040  git checkout -b SMAR-46
+10041  yarn start
+10042  cd backoffice
+10043  pnpm add react-hot-toast\n
+10044  npm run start
+10045  ls
+10046  cd Documents/tcc
+10047  ls
+10048  mkdir project
+10049  mv app project
+10050  ls
+10051  cd project
+10052  pnpm init
+10053  nano package.json
+10054  touch pnpm-workspace.yaml
+10055  vim pnpm-workspace.yaml
+10056  nano pnpm-workspace.yaml
+10057  ls
+10058  pnpm install
+10059  cd app
+10060  pnpm start
+10061  cd Documents/tcc/project
+10062  code .
+10063  history
+10064  history > history.txt
+10065  git config user.email
+10066  git init
+10067  cd app
+10068  rm -r .git
+10069  sudo rm -r .git
+10070  code .
+10071  git init 
+10072  git add .
+10073  git commit -m "first commit"
+10074  git branch -M main
+10075  git remote add origin https://github.com/car1nhanha/tcc.git
+10076  git push -u origin main

@@ -1,0 +1,5 @@
+packages:
+  - "backoffice"
+  - "app"
+  - "api"
+
