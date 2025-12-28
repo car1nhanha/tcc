@@ -1,5 +1,4 @@
 packages:
-  - "backoffice"
+  - "dashboard"
   - "app"
   - "api"
-
