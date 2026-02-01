@@ -76,7 +76,7 @@ const list = [
 
 export const DashboardTemplate = ({ children }: DashboardTemplateProps) => {
   const theme = useTheme();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
   const menuOpen = Boolean(anchorEl);
