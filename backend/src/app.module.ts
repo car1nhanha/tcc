@@ -3,11 +3,15 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { TeacherModule } from './teacher/teacher.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot(),
     MongooseModule.forRoot(`${process.env.MONGODB_URI}`),
+    TeacherModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
