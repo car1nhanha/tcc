@@ -1,4 +1,5 @@
 import {
+  BadRequestException,
   Injectable,
   NotFoundException,
   UnauthorizedException,
@@ -46,8 +47,11 @@ export class AuthService {
   async register(createTeacherDto: CreateTeacherDto) {
     const hashedPassword = await bcrypt.hash(createTeacherDto.password, 10);
 
-    // todo - verificar se já há usuário registrado
-    // todo - verificar se a senha é forte
+    const hasUser = await this.teacherService.findOne(createTeacherDto.email);
+    if (hasUser) throw new BadRequestException('email já registrado');
+
+    if (createTeacherDto.password.length <= 6)
+      throw new BadRequestException('Senha muito curta');
 
     const newTeacher = await this.teacherService.create({
       ...createTeacherDto,
