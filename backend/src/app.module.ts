@@ -5,6 +5,9 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TeacherModule } from './teacher/teacher.module';
 import { AuthModule } from './auth/auth.module';
+import { SkillsModule } from './skills/skills.module';
+import { ActivitiesModule } from './activities/activities.module';
+import { QuestionsModule } from './questions/questions.module';
 
 @Module({
   imports: [
@@ -12,6 +15,9 @@ import { AuthModule } from './auth/auth.module';
     MongooseModule.forRoot(`${process.env.MONGODB_URI}`),
     TeacherModule,
     AuthModule,
+    SkillsModule,
+    ActivitiesModule,
+    QuestionsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

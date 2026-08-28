@@ -1,34 +1,10 @@
-import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Patch,
-  Post,
-} from '@nestjs/common';
-import { CreateTeacherDto } from './dto/create-teacher.dto';
+import { Body, Controller, Delete, Param, Patch } from '@nestjs/common';
 import { UpdateTeacherDto } from './dto/update-teacher.dto';
 import { TeacherService } from './teacher.service';
 
 @Controller('teacher')
 export class TeacherController {
   constructor(private readonly teacherService: TeacherService) {}
-
-  @Post()
-  create(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
-
-  @Get()
-  findAll() {
-    return this.teacherService.findAll();
-  }
-
-  // @Get(':id')
-  // findOne(@Param('id') id: string) {
-  //   return this.teacherService.findOne(id);
-  // }
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateTeacherDto: UpdateTeacherDto) {
